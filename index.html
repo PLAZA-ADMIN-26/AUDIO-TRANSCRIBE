@@ -6,36 +6,61 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Trascrizione Audio">
-<meta name="theme-color" content="#2b6777">
-<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAADAFBMVEUrZ3f///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADKypXlAAAAt0lEQVR42u3aywrCMBCG0c77v7TgZZdAhhj/IucDK7jJWZQMNb0uSZIkSdqpqp6f4Pr1uuTWr/c1tn59vgAAAAD+HjAYO1PAiRE1GjszwIkRNRw7E8CJETVeqvMrAAAAwJFdvwlYnRDru34PsDohGrt+C7A6IfaX2rwzAAAAAAAAAAAAAAAA4k9G+WfD/NOxPygAAABuCYifmOTPjPKnZg4uAQAAANZH1M8Fybfp8u8TSpIkSfpGD8pwC2XJkwx3AAAAAElFTkSuQmCC">
+<meta name="theme-color" content="#000000">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAADAFBMVEUAAAAA/0EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoM3bQAAAAvklEQVR42u3bWwqDMBQFwGT/m27oRyk1LddYzDXO+RRCBpRDHliKSEudFIB3wJT3DgAAAAAAAAAAAAAAAACwAqANHB37D8Bzj18HR68AqC9ABQAAOAfwWXt9QLQcdwO2rdMDxLvpcoDObLFHAAAAo4BA7YUB3XL8DQi1ThDwpZtyA4Zn2/FZAAAAAAAAAABYkiVfFduYAAAkBDimm39S6rAaACAhwNVtmX57figAAAAAAAAAAAAA/jlNBZBb5wHeZQy3EcHnKwAAAABJRU5ErkJggg==">
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAADAFBMVEUAAAAA/0EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoM3bQAAAAvklEQVR42u3bWwqDMBQFwGT/m27oRyk1LddYzDXO+RRCBpRDHliKSEudFIB3wJT3DgAAAAAAAAAAAAAAAACwAqANHB37D8Bzj18HR68AqC9ABQAAOAfwWXt9QLQcdwO2rdMDxLvpcoDObLFHAAAAo4BA7YUB3XL8DQi1ThDwpZtyA4Zn2/FZAAAAAAAAAABYkiVfFduYAAAkBDimm39S6rAaACAhwNVtmX57figAAAAAAAAAAAAA/jlNBZBb5wHeZQy3EcHnKwAAAABJRU5ErkJggg==">
 <title>Trascrizione Audio AI</title>
 <style>
-  body{font-family:Arial,Helvetica,sans-serif;max-width:700px;margin:20px auto;padding:0 15px;color:#222}
-  h1{font-size:1.3em}
-  label{display:block;margin:12px 0 4px;font-weight:bold}
-  select{width:100%;padding:6px;box-sizing:border-box}
-  button{margin-top:15px;padding:10px 16px;font-size:1em;cursor:pointer}
-  .file-item{border:1px solid #ccc;padding:10px;margin-top:10px}
-  .file-name{font-weight:bold}
-  .status{color:#555;font-size:0.9em;margin:4px 0}
-  textarea{width:100%;height:100px;margin-top:6px;box-sizing:border-box}
-  .err{color:#b00020}
-  .top-status{margin-top:12px;font-size:0.9em;color:#444}
-  a.download{display:inline-block;margin-top:6px}
-  small{color:#666}
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:#000;height:100%;}
+  body{color:#0f0;font-family:'Courier New',Courier,monospace;}
+  #matrixCanvas{position:fixed;inset:0;z-index:0;}
+  .page{position:relative;z-index:1;max-width:700px;margin:20px auto;padding:0 15px 30px;background:rgba(0,0,0,0.93);}
+  h1{font-size:1.3em;text-shadow:0 0 6px #0f0;letter-spacing:1px;}
+  h1::after{content:'▌';animation:blink 1s step-start infinite;}
+  @keyframes blink{50%{opacity:0;}}
+  .prompt{color:#0a0;font-size:0.85em;margin:-10px 0 10px;}
+  .panel{border:1px solid #0f0;padding:14px 16px 4px;margin-top:14px;box-shadow:0 0 14px rgba(0,255,65,0.15) inset;}
+  label{display:block;margin:12px 0 4px;font-weight:bold;color:#0f0;}
+  label::before{content:'> ';opacity:0.8;}
+  select,input[type=password],input[type=text]{width:100%;padding:7px;background:#000;color:#0f0;border:1px solid #0f0;font-family:inherit;transition:box-shadow .15s ease;}
+  select:focus,input:focus{outline:none;box-shadow:0 0 8px #0f0;}
+  button{margin-top:15px;padding:10px 18px;font-size:1em;cursor:pointer;background:#000;color:#0f0;border:1px solid #0f0;font-family:inherit;letter-spacing:1px;text-transform:uppercase;transition:all .15s ease;}
+  button:hover{background:#0f0;color:#000;box-shadow:0 0 12px #0f0;}
+  .file-item{border:1px solid #0f0;padding:10px;margin-top:10px;transition:box-shadow .2s ease;}
+  .file-item:hover{box-shadow:0 0 10px rgba(0,255,65,0.25);}
+  .file-name{font-weight:bold;color:#0f0;}
+  .file-name::before{content:'◆ ';}
+  .status{color:#0a0;font-size:0.9em;margin:4px 0;}
+  textarea{width:100%;height:100px;margin-top:6px;background:#000;color:#0f0;border:1px solid #0f0;font-family:inherit;}
+  .err{color:#f33;}
+  .top-status{margin-top:12px;font-size:0.9em;color:#0f0;}
+  a,a.download{display:inline-block;margin-top:6px;color:#0f0;text-decoration:underline;}
+  a:hover{text-shadow:0 0 6px #0f0;}
+  small{color:#090;}
+  details{border:1px solid #0f0;padding:8px 12px;margin-top:15px;}
+  summary{cursor:pointer;color:#0f0;}
+  input[type=checkbox]{accent-color:#0f0;}
+  code{background:#010;padding:2px 4px;color:#0f0;}
+  p{color:#0c0;}
+  ::selection{background:#0f0;color:#000;}
 </style>
 </head>
 <body>
-<h1>Trascrizione Audio AI</h1>
+<canvas id="matrixCanvas"></canvas>
+<div class="page">
+<h1>&gt; trascrizione_audio</h1>
+<div class="prompt">root@local:~$ ./trascrizione_audio.sh --lang=auto --mode=cloud</div>
 <p>Scegli se trascrivere in locale nel browser (gratis, privata, ma più lenta) oppure con un'API cloud (a pagamento, molto più veloce e più accurata).</p>
 
+<div class="panel">
 <label for="mode">Modalità</label>
 <select id="mode">
   <option value="local">Locale nel browser (gratis, privata, più lenta)</option>
-  <option value="api">Cloud API (a pagamento, veloce, massima accuratezza)</option>
+  <option value="api" selected>Cloud API (a pagamento/gratis con Groq, veloce, massima accuratezza)</option>
 </select>
 
-<div id="localOptions">
+<div id="localOptions" style="display:none;">
 <label for="model">Modello (velocità vs accuratezza)</label>
 <select id="model">
   <option value="Xenova/whisper-base">Bilanciato (consigliato)</option>
@@ -45,7 +70,7 @@
 <p><small>Il modello si scarica una volta sola e resta in cache. Consigliato Chrome/Edge aggiornati.</small></p>
 </div>
 
-<div id="apiOptions" style="display:none;">
+<div id="apiOptions">
 <label for="provider">Provider</label>
 <select id="provider">
   <option value="groq">Groq (gratuito, whisper-large-v3)</option>
@@ -54,6 +79,9 @@
 <label for="apiKey">Chiave API</label>
 <input type="password" id="apiKey" placeholder="gsk_... (Groq) oppure sk-... (OpenAI)">
 <p><small>La chiave resta solo nel tuo browser e viene inviata solo al provider scelto. Groq ha un piano gratuito senza carta (limiti: 20 richieste/min, 2h di audio/ora circa) — <a href="https://console.groq.com/keys" target="_blank" rel="noopener">crea qui una chiave gratuita</a>. OpenAI è a pagamento a consumo.</small></p>
+<label style="display:flex;align-items:center;gap:8px;font-weight:normal;">
+  <input type="checkbox" id="cleanup"> Migliora il testo con l'AI dopo la trascrizione (corregge punteggiatura, rimuove intercalari)
+</label>
 </div>
 
 <label for="lang">Lingua</label>
@@ -64,10 +92,15 @@
   <option value="french">Français</option>
 </select>
 
+<label style="display:flex;align-items:center;gap:8px;font-weight:normal;">
+  <input type="checkbox" id="enhance"> Migliora l'audio prima della trascrizione (filtra rimbombo/fruscio, normalizza il volume)
+</label>
+
 <label for="files">File audio (puoi selezionarne più di uno, anche fino a 2 ore ciascuno)</label>
 <input type="file" id="files" accept="audio/*,.mp3,.wav,.m4a,.aac,.ogg,.oga,.opus,.flac,.wma,.aiff,.aif,.webm,.mp4,.mpga,.3gp,.amr" multiple>
 
 <button id="start">Trascrivi tutti i file</button>
+</div>
 
 <details style="margin-top:15px;">
 <summary>Usarla come app (iPhone / Windows)</summary>
@@ -76,10 +109,45 @@
 </details>
 <div class="top-status" id="topStatus"></div>
 <div id="queue"></div>
+</div>
 
 <script type="module">
 import { pipeline, env } from 'https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.6.1';
 env.allowLocalModels = false;
+
+(function matrixRain(){
+  const canvas = document.getElementById('matrixCanvas');
+  const c = canvas.getContext('2d');
+  const fontSize = 16;
+  const chars = 'アカサタナ0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  let columns, drops;
+  function resize(){
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    columns = Math.floor(canvas.width/fontSize);
+    drops = new Array(columns).fill(1);
+  }
+  resize();
+  window.addEventListener('resize', resize);
+  setInterval(()=>{
+    c.fillStyle = 'rgba(0,0,0,0.07)';
+    c.fillRect(0,0,canvas.width,canvas.height);
+    c.fillStyle = '#0f0';
+    c.font = fontSize+'px monospace';
+    for(let i=0;i<drops.length;i++){
+      c.fillText(chars[Math.floor(Math.random()*chars.length)], i*fontSize, drops[i]*fontSize);
+      if(drops[i]*fontSize > canvas.height && Math.random() > 0.975) drops[i] = 0;
+      drops[i]++;
+    }
+  }, 50);
+})();
+
+function makeWordBlob(text){
+  const safe = text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  const paragraphs = safe.split(/\n+/).filter(p=>p.trim().length).map(p=>'<p>'+p+'</p>').join('') || '<p></p>';
+  const html = '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="utf-8"><title>Trascrizione</title></head><body style="font-family:Calibri,Arial,sans-serif;">'+paragraphs+'</body></html>';
+  return new Blob(['\ufeff'+html], {type:'application/msword'});
+}
 
 function downsampleTo16k(mono, srcRate){
   const targetRate=16000, len=mono.length;
@@ -159,6 +227,46 @@ async function decodeAudioFile(file, statusEl){
   }
 }
 
+async function enhanceAudio(mono, sampleRate){
+  const offlineCtx = new OfflineAudioContext(1, mono.length, sampleRate);
+  const buffer = offlineCtx.createBuffer(1, mono.length, sampleRate);
+  buffer.copyToChannel(mono, 0);
+  const source = offlineCtx.createBufferSource();
+  source.buffer = buffer;
+  const highpass = offlineCtx.createBiquadFilter();
+  highpass.type = 'highpass'; highpass.frequency.value = 80; // rimuove rimbombo/rumore di fondo grave
+  const lowpass = offlineCtx.createBiquadFilter();
+  lowpass.type = 'lowpass'; lowpass.frequency.value = 8000; // rimuove fruscio/sibilo oltre la voce
+  const compressor = offlineCtx.createDynamicsCompressor();
+  compressor.threshold.value = -28;
+  compressor.knee.value = 30;
+  compressor.ratio.value = 8;
+  compressor.attack.value = 0.005;
+  compressor.release.value = 0.25;
+  source.connect(highpass); highpass.connect(lowpass); lowpass.connect(compressor); compressor.connect(offlineCtx.destination);
+  source.start(0);
+  const rendered = await offlineCtx.startRendering();
+  const out = rendered.getChannelData(0);
+  let peak = 0;
+  for(let i=0;i<out.length;i++){ const a=Math.abs(out[i]); if(a>peak) peak=a; }
+  const gain = peak>0 ? Math.min(0.95/peak, 6) : 1;
+  const normalized = new Float32Array(out.length);
+  for(let i=0;i<out.length;i++) normalized[i] = out[i]*gain;
+  return normalized;
+}
+
+async function prepareAudio(file, statusEl, doEnhance){
+  statusEl.textContent = 'Decodifica audio...';
+  let {mono, sampleRate} = await decodeAudioFile(file, statusEl);
+  let enhancedBlob = null;
+  if(doEnhance){
+    statusEl.textContent = 'Miglioramento audio (filtri, normalizzazione)...';
+    mono = await enhanceAudio(mono, sampleRate);
+    enhancedBlob = encodeWAV(mono, sampleRate);
+  }
+  return {mono, sampleRate, enhancedBlob};
+}
+
 function encodeWAV(samples, sampleRate){
   const buffer = new ArrayBuffer(44+samples.length*2);
   const view = new DataView(buffer);
@@ -181,6 +289,28 @@ const PROVIDERS = {
   groq: { url: 'https://api.groq.com/openai/v1/audio/transcriptions', model: 'whisper-large-v3' },
   openai: { url: 'https://api.openai.com/v1/audio/transcriptions', model: 'whisper-1' }
 };
+const CHAT_PROVIDERS = {
+  groq: { url: 'https://api.groq.com/openai/v1/chat/completions', model: 'llama-3.3-70b-versatile' },
+  openai: { url: 'https://api.openai.com/v1/chat/completions', model: 'gpt-4o-mini' }
+};
+
+async function cleanupText(text, apiKey, chatConf){
+  const resp = await fetch(chatConf.url, {
+    method:'POST',
+    headers:{'Content-Type':'application/json','Authorization':'Bearer '+apiKey},
+    body: JSON.stringify({
+      model: chatConf.model,
+      temperature: 0.2,
+      messages: [
+        {role:'system', content:'Sei un editor di trascrizioni. Correggi punteggiatura e maiuscole, rimuovi intercalari (ehm, tipo, cioè) e ripetizioni, dividi in paragrafi leggibili. Non riassumere, non aggiungere o inventare contenuto, non tradurre, mantieni la lingua originale. Restituisci solo il testo corretto, senza commenti.'},
+        {role:'user', content: text}
+      ]
+    })
+  });
+  if(!resp.ok){ const t = await resp.text(); throw new Error('Errore AI cleanup ('+resp.status+'): '+t); }
+  const data = await resp.json();
+  return data.choices[0].message.content.trim();
+}
 
 async function transcribeChunkAPI(blob, apiKey, langCode, providerConf){
   const form = new FormData();
@@ -195,9 +325,9 @@ async function transcribeChunkAPI(blob, apiKey, langCode, providerConf){
   return await resp.text();
 }
 
-async function processFileAPI(file, apiKey, langFull, providerConf, statusEl, textEl){
-  statusEl.textContent = 'Decodifica audio...';
-  const {mono, sampleRate} = await decodeAudioFile(file, statusEl);
+async function processFileAPI(file, apiKey, langFull, providerName, doCleanup, doEnhance, statusEl, textEl){
+  const providerConf = PROVIDERS[providerName];
+  const {mono, sampleRate, enhancedBlob} = await prepareAudio(file, statusEl, doEnhance);
   const samples = downsampleTo16k(mono, sampleRate);
   const langCode = LANG_CODE[langFull] || '';
   const chunkSize = 600*16000;
@@ -211,13 +341,22 @@ async function processFileAPI(file, apiKey, langFull, providerConf, statusEl, te
     fullText += (fullText?' ':'') + text.trim();
     textEl.value = fullText;
   }
+  if(doCleanup){
+    statusEl.textContent = 'Miglioramento testo con AI...';
+    try{
+      fullText = await cleanupText(fullText, apiKey, CHAT_PROVIDERS[providerName]);
+      textEl.value = fullText;
+    }catch(e){
+      statusEl.textContent = 'Trascrizione ok, ma il miglioramento AI è fallito: ' + e.message;
+      return {text: fullText, enhancedBlob};
+    }
+  }
   statusEl.textContent = 'Completato.';
-  return fullText;
+  return {text: fullText, enhancedBlob};
 }
 
-async function processFile(file, transcriber, langFull, statusEl, textEl){
-  statusEl.textContent = 'Decodifica audio...';
-  const {mono, sampleRate} = await decodeAudioFile(file, statusEl);
+async function processFile(file, transcriber, langFull, doEnhance, statusEl, textEl){
+  const {mono, sampleRate, enhancedBlob} = await prepareAudio(file, statusEl, doEnhance);
   const samples = downsampleTo16k(mono, sampleRate);
   statusEl.textContent = 'Trascrizione in corso (può richiedere diversi minuti per audio lunghi)...';
   const output = await transcriber(samples, {
@@ -229,7 +368,7 @@ async function processFile(file, transcriber, langFull, statusEl, textEl){
   const text = (output.text || '').trim();
   textEl.value = text;
   statusEl.textContent = 'Completato.';
-  return text;
+  return {text, enhancedBlob};
 }
 
 document.getElementById('mode').addEventListener('change', ()=>{
@@ -241,6 +380,7 @@ document.getElementById('mode').addEventListener('change', ()=>{
 document.getElementById('start').addEventListener('click', async ()=>{
   const mode = document.getElementById('mode').value;
   const lang = document.getElementById('lang').value;
+  const doEnhance = document.getElementById('enhance').checked;
   const files = document.getElementById('files').files;
   const queue = document.getElementById('queue');
   const topStatus = document.getElementById('topStatus');
@@ -249,11 +389,13 @@ document.getElementById('start').addEventListener('click', async ()=>{
 
   let transcriber = null;
   let apiKey = null;
-  let providerConf = null;
+  let providerName = null;
+  let doCleanup = false;
 
   if(mode==='api'){
     apiKey = document.getElementById('apiKey').value.trim();
-    providerConf = PROVIDERS[document.getElementById('provider').value];
+    providerName = document.getElementById('provider').value;
+    doCleanup = document.getElementById('cleanup').checked;
     if(!apiKey){ alert('Inserisci una chiave API.'); return; }
     topStatus.classList.remove('err');
     topStatus.textContent = 'Elaborazione file...';
@@ -301,17 +443,40 @@ document.getElementById('start').addEventListener('click', async ()=>{
     queue.appendChild(item);
 
     try{
-      const text = mode==='api'
-        ? await processFileAPI(file, apiKey, lang, providerConf, status, textEl)
-        : await processFile(file, transcriber, lang, status, textEl);
-      const blob = new Blob([text], {type:'text/plain'});
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.className='download';
-      a.href = url;
-      a.download = file.name.replace(/\.[^.]+$/,'') + '_trascrizione.txt';
-      a.textContent = 'Scarica trascrizione (.txt)';
-      item.appendChild(a);
+      const result = mode==='api'
+        ? await processFileAPI(file, apiKey, lang, providerName, doCleanup, doEnhance, status, textEl)
+        : await processFile(file, transcriber, lang, doEnhance, status, textEl);
+      const text = result.text;
+      const baseName = file.name.replace(/\.[^.]+$/,'') + '_trascrizione';
+      const txtBlob = new Blob([text], {type:'text/plain'});
+      const txtUrl = URL.createObjectURL(txtBlob);
+      const txtA = document.createElement('a');
+      txtA.className='download';
+      txtA.href = txtUrl;
+      txtA.download = baseName + '.txt';
+      txtA.textContent = 'Scarica .txt';
+      item.appendChild(txtA);
+
+      const docBlob = makeWordBlob(text);
+      const docUrl = URL.createObjectURL(docBlob);
+      const docA = document.createElement('a');
+      docA.className='download';
+      docA.href = docUrl;
+      docA.download = baseName + '.doc';
+      docA.textContent = 'Scarica Word (.doc)';
+      docA.style.marginLeft = '16px';
+      item.appendChild(docA);
+
+      if(result.enhancedBlob){
+        const audioUrl = URL.createObjectURL(result.enhancedBlob);
+        const audioA = document.createElement('a');
+        audioA.className='download';
+        audioA.href = audioUrl;
+        audioA.download = file.name.replace(/\.[^.]+$/,'') + '_migliorato.wav';
+        audioA.textContent = 'Scarica audio migliorato (.wav)';
+        audioA.style.marginLeft = '16px';
+        item.appendChild(audioA);
+      }
     }catch(err){
       status.classList.add('err');
       status.textContent = 'Errore: ' + err.message;
